@@ -1,0 +1,93 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #553055;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+    background-color: #4c2a4c;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 700px;
+    color: #eee;
+}
+
+/* Nabar */
+.navbar {
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #6d3d6d;
+}
+
+.navbar h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+.navbar p {
+    font-size: 1.2rem;
+}
+
+/* BookList */
+.book-list {
+    margin: 20px;
+}
+.book-list ul {
+    padding: 0 0.2em 0.5em;
+    list-style-type: none;
+}
+.book-list li {
+    background-color: #6d3d6d;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+.book-list li:hover {
+    opacity: 0.7;
+    text-decoration: line-through;
+}
+.book-list .title {
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.2em;
+}
+.book-list .author {
+    font-size: 0.9em;
+    color: #ddd;
+}
+.empty {
+    margin: 20px;
+    text-align: center;
+}
+
+/* Form */
+
+form {
+    padding: 20px;
+}
+input[type="text"] {
+    font-size: 1rem;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 6px 0;
+    background: #3c1f3c;
+    color: #fff;
+    border: 0;
+}
+input[type="submit"] {
+    margin: 10px auto;
+    background: #eee;
+    border: 0;
+    padding: 6px 20px;
+    display: block;
+    cursor: pointer;
+}

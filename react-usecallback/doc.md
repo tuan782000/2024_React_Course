@@ -1,0 +1,1 @@
+useCallback về tính năng và ứng dụng khá giống với useMemo cũng lưu giá trị vào bộ nhớ. Nhưng sự khác biệt là useMemo chỉ lưu được giá trị trả về, còn useCallback lưu được cả 1 function chính vi lưu nguyên được 1 hàm cho nên là có thể truyền tham số.
